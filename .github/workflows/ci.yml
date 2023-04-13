@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: "3.x"
       - run: pip install check-manifest && check-manifest
-  
+
   # Check tests pass on multiple Python and OS combinations
   test:
     runs-on: ${{ matrix.os }}
@@ -113,7 +113,7 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: "3.11"
-    
+
     # Build and release cdp-backend to pypi
     - name: Install Dependencies
       run: |
@@ -127,5 +127,5 @@ jobs:
     - name: Publish to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        user: CouncilDataProject
+        user: OpenMontana
         password: ${{ secrets.PYPI_TOKEN }}
