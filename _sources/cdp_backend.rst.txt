@@ -1,0 +1,25 @@
+cdp\_backend package
+====================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cdp_backend.annotation
+   cdp_backend.bin
+   cdp_backend.database
+   cdp_backend.file_store
+   cdp_backend.infrastructure
+   cdp_backend.pipeline
+   cdp_backend.sr_models
+   cdp_backend.utils
+
+Module contents
+---------------
+
+.. automodule:: cdp_backend
+   :members:
+   :undoc-members:
+   :show-inheritance:

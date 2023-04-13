@@ -1,0 +1,84 @@
+# Transcript Model
+
+While most users will end up browsing and searching transcripts using the CDP frontend
+tooling, we also need a standardized method for storing the transcript data for both
+pipeline processing and enabling a stable API for research and archival purposes.
+
+Below you will find an example transcript.<br>
+For more specific details please see the
+[object definition documentation](./cdp_backend.pipeline.html#module-cdp_backend.pipeline.transcript_model).
+
+## Example Transcript
+```json
+{
+    "generator": "EvaGen -- Lib Version: 0.0.0",
+    "confidence": 0.93325,
+    "session_datetime": "2021-01-10T15:00:00",
+    "created_datetime": "2023-04-13T01:51:00.079660",
+    "sentences": [
+        {
+            "index": 0,
+            "confidence": 0.9,
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "words": [
+                {
+                    "index": 0,
+                    "start_time": 0.0,
+                    "end_time": 0.5,
+                    "text": "hello",
+                    "annotations": null
+                },
+                {
+                    "index": 1,
+                    "start_time": 0.5,
+                    "end_time": 1.0,
+                    "text": "everyone",
+                    "annotations": null
+                }
+            ],
+            "text": "Hello everyone.",
+            "speaker_index": 0,
+            "speaker_name": "Eva Maxfield Brown",
+            "annotations": null
+        },
+        {
+            "index": 1,
+            "confidence": 0.95,
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "words": [
+                {
+                    "index": 0,
+                    "start_time": 1.0,
+                    "end_time": 1.5,
+                    "text": "hi",
+                    "annotations": null
+                },
+                {
+                    "index": 1,
+                    "start_time": 1.5,
+                    "end_time": 2.0,
+                    "text": "all",
+                    "annotations": null
+                }
+            ],
+            "text": "Hi all.",
+            "speaker_index": 1,
+            "speaker_name": "Isaac Na",
+            "annotations": null
+        }
+    ],
+    "annotations": {
+        "sections": [
+            {
+                "name": "Call to Order",
+                "start_sentence_index": 0,
+                "stop_sentence_index": 2,
+                "generator": "Eva Maxfield Brown",
+                "description": null
+            }
+        ]
+    }
+}
+```

@@ -1,0 +1,69 @@
+cdp\_backend.pipeline package
+=============================
+
+Submodules
+----------
+
+cdp\_backend.pipeline.event\_gather\_pipeline module
+----------------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.event_gather_pipeline
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cdp\_backend.pipeline.generate\_event\_index\_pipeline module
+-------------------------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.generate_event_index_pipeline
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cdp\_backend.pipeline.ingestion\_models module
+----------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.ingestion_models
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cdp\_backend.pipeline.mock\_get\_events module
+----------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.mock_get_events
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cdp\_backend.pipeline.pipeline\_config module
+---------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.pipeline_config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cdp\_backend.pipeline.process\_event\_index\_chunk\_pipeline module
+-------------------------------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.process_event_index_chunk_pipeline
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cdp\_backend.pipeline.transcript\_model module
+----------------------------------------------
+
+.. automodule:: cdp_backend.pipeline.transcript_model
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cdp_backend.pipeline
+   :members:
+   :undoc-members:
+   :show-inheritance:
